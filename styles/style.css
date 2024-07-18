@@ -74,7 +74,7 @@ section h1 {
 	font-size: 3em;
 	font-weight: 700;
 	text-align: center;
-	margin: 4em 4.5em;
+	margin: 4em 4.5em 3em;
 	padding: 0;
 }
 
@@ -241,6 +241,7 @@ section h1 {
 	border-radius: 1.25em;
 	display: flex;
 	gap: 2em;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -328,7 +329,7 @@ section h1 {
 }
 
 .card:hover .conteudo {
-	top: -6em;
+	top: -7em;
 	overflow: visible;
 	transition: .5s;
 	scale: 0.9;
