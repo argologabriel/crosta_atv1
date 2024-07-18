@@ -78,19 +78,6 @@ section h1 {
 	padding: 0;
 }
 
-.down {
-	display: flex;
-	margin: auto;
-	padding: 1.5em;
-	border: 1px solid var(--boder-color);
-	border-radius: 999px;
-}
-
-.down:hover {
-	scale:1.25;
-	transition: .5s;
-}
-
 #conceito div {
 	margin: 0 4.5em;
 	display: flex;
