@@ -34,13 +34,13 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	background-color: var(--video-color);
-	padding: 24px 80px;
+	padding: 1.5em 5em;
 }
 
 header a {
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: 600;
-	padding: 12px;
+	padding: .75em;
 	color: var(--text-color);
 }
 
@@ -52,7 +52,7 @@ header a:hover {
 header h1 a {
 	font-family: "Titillium Web", sans-serif;
 	font-style: italic;
-	font-size: 48px;
+	font-size: 2em;
 	font-weight: 700;
 }
 
@@ -61,27 +61,27 @@ h2 {
 }
 
 img {
-	width:96px;
+	width:6em;
 }
 
 section {
-	margin-bottom: 96px;
+	margin-bottom: 6em;
 }
 
 section h1 {
 	font-family: "Titillium Web", sans-serif;
 	font-style: italic;
-	font-size: 48px;
+	font-size: 3em;
 	font-weight: 700;
 	text-align: center;
-	margin: 72px 72px;
-	padding: 32px;
+	margin: 4em 4.5em;
+	padding: 0;
 }
 
 .down {
 	display: flex;
 	margin: auto;
-	padding: 24px;
+	padding: 1.5em;
 	border: 1px solid var(--boder-color);
 	border-radius: 999px;
 }
@@ -92,27 +92,27 @@ section h1 {
 }
 
 #conceito div {
-	margin: 0 72px;
+	margin: 0 4.5em;
 	display: flex;
 	justify-content: space-between;
 }
 
 #conceito div iframe {
-	border-radius: 20px;
+	border-radius: 1.25em;
 }
 
 #conceito div .paragrafo {
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+	gap: .75em;
 	background-color: var(--second-color);
-	padding: 32px;
-	width: 500px;
+	padding: 2em;
+	width: 31.25em;
 	border: 1px solid var(--boder-color);
-	border-radius: 20px;
+	border-radius: 1.25em;
 	align-items: center;
 	text-align: justify;
-	text-indent: 32px;
+	text-indent: 2em;
 	font-size: larger;
 }
 
@@ -121,22 +121,22 @@ section h1 {
 }
 
 #bases ul div {
-	margin: 32px 72px;
+	margin: 2em 4.5em;
 	display: flex;
 	justify-content: space-evenly;	
 }
 
 #bases ul div li {
 	background-color: var(--second-color);
-	padding: 12px;
-	width: 300px;
+	padding: .75em;
+	width: 18.75em;
 	border: 1px solid var(--boder-color);
-	border-radius: 20px;
+	border-radius: 1.25em;
 
 	display: flex;
 	align-items: center;
 	text-align: center;
-	gap: 16px;
+	gap: 1em;
 }
 
 #bases ul div li:hover {
@@ -152,21 +152,21 @@ section h1 {
 #agentes ul {
 	display: flex;
 	flex-direction: column;
-	margin: 0 72px;
-	gap: 72px;
+	margin: 0 4.5em;
+	gap: 4.5em;
 }
 
 #agentes ul li {
 	background-color: var(--second-color);
-	padding: 32px;
+	padding: 2em;
 	border: 1px solid var(--boder-color); 
-	border-radius: 20px;
+	border-radius: 1.25em;
 	display: flex;
-	gap: 32px;
+	gap: 2em;
 }
 
 #agentes ul li .imagem img {
-	height: 152px;
+	height: 9.5em;
 } 
 
 #agentes ul li:hover .imagem img {
@@ -182,28 +182,28 @@ section h1 {
 #agentes ul li .conteudo {
 	display: flex;
 	flex-direction: column;
-	gap: 24px;
+	gap: 1.5em;
 } 
 
 #agentes ul li .conteudo p {
 	text-align: justify;
-	font-size: 18px;;
+	font-size: 1.125em;;
 }
 
 #eventos ul {
 	display: flex;
 	flex-direction: column;
-	margin: 0 72px;
-	gap: 72px;
+	margin: 0 4.5em;
+	gap: 4.5em;
 }
 
 #eventos ul li {
 	background-color: var(--second-color);
-	padding: 32px;
+	padding: 2em;
 	border: 1px solid var(--boder-color); 
-	border-radius: 20px;
+	border-radius: 1.25em;
 	display: flex;
-	gap: 32px;
+	gap: 2em;
 }
 
 #eventos ul li:hover {
@@ -220,27 +220,27 @@ section h1 {
 #eventos ul li .conteudo {
 	display: flex;
 	flex-direction: column;
-	gap: 24px;
+	gap: 1.5em;
 } 
 
 #eventos ul li .conteudo p {
 	text-align: justify;
-	font-size: 18px;;
+	font-size: 1.125em;;
 }
 
 #artefatos ul {
 	display: flex;
-	margin: 0 72px;
-	gap: 72px;
+	margin: 0 4.5em;
+	gap: 4.5em;
 }
 
 #artefatos ul li {
 	background-color: var(--second-color);
-	padding: 32px;
+	padding: 2em;
 	border: 1px solid var(--boder-color); 
-	border-radius: 20px;
+	border-radius: 1.25em;
 	display: flex;
-	gap: 32px;
+	gap: 2em;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -250,12 +250,12 @@ section h1 {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	gap: 12px;
+	gap: .75em;
 	text-align: center;
 } 
 
 #artefatos ul li .imagem img {
-	height: 156px;
+	height: 9.75em;
 	width: auto;
 } 
 
@@ -273,17 +273,17 @@ section h1 {
 #artefatos ul li .conteudo {
 	display: flex;
 	flex-direction: column;
-	gap: 24px;
+	gap: 1.5em;
 } 
 
 #artefatos ul li .conteudo p {
 	text-align: justify;
-	text-indent: 24px;
+	text-indent: 1.5em;
 } 
 
 #valores ul {
-	margin: 32px 72px;
-	gap: 64px;
+	margin: 2em 4.5em;
+	gap: 4em;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -293,12 +293,12 @@ section h1 {
 	background-color: var(--second-color);
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
-	width: 300px;
-	height: 160px;
+	gap: .75em;
+	width: 18.75em;
+	height: 10em;
 	position: relative;
 	border: 1px solid var(--boder-color);
-	border-radius: 20px;
+	border-radius: 1.25em;
 }
 
 #valores .card:hover {
@@ -306,7 +306,7 @@ section h1 {
 }
 
 #valores ul li .imagem {
-	margin-top: 6px;
+	margin-top: .375em;
 	position: relative;
 	text-align: center;
 }
@@ -321,21 +321,21 @@ section h1 {
 }
 
 .card .conteudo p {
-	padding: 12px;
+	padding: .75em;
 	text-align: justify;
-	text-indent: 24px;
-	font-size: 16px;
+	text-indent: 1.5em;
+	font-size: 1em;
 }
 
 .card:hover .conteudo {
-	top: -96px;
+	top: -6em;
 	overflow: visible;
 	transition: .5s;
 	scale: 0.9;
 }
 
 .card:hover .imagem {
-	top: -96px;
+	top: -6em;
 	scale: 0.75;
 	filter: invert(80%);
 	transition: .5s;
@@ -344,9 +344,9 @@ section h1 {
 #copyright {
 	color: var(--text-color);
 	background-color: var(--video-color);
-	padding: 32px 80px;
+	padding: 2em 5em;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 1.125em;
 }
 
 #copyright p {
